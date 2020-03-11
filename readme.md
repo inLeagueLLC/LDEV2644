@@ -16,7 +16,12 @@ Commandbox and either Docker or a local instance of MySQL with an empty **luceeF
 
 ## Pre-Installation
 
-Clone this repo, then **box install** and **docker-compose pull -d**.
+Clone this repo, then:
+
+1. **box install** (to install dependencies)
+2. **docker-compose pull -d** (to start MySQL)
+3. Edit **.env** if you want to enable FR (below)
+4. **box server start**
 
 ## App Bootstrap
 
