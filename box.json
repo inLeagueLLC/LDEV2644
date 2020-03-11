@@ -26,6 +26,7 @@
     },
     "dependencies":{
         "coldbox":"^5.0.0",
+        "cbvalidation": "^2.1.0",
         "testbox":"^3.2.0",
         "commandbox-dotenv":"^1.8.1",
         "commandbox-cfconfig":"^1.0.6",
