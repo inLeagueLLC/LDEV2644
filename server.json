@@ -1,10 +1,7 @@
 {
     "cfconfigfile":"./.cfconfig.json",
     "app":{
-        "cfengine":"lucee@5.3.4+80"
-    },
-    "jvm":{
-        "javaHome":"C:\\Program Files\\AdoptOpenJDK\\jdk-11.0.6.10-hotspot"
+        "cfengine":"${CFENGINE:lucee@5.3.4+80}"
     },
     "web":{
         "rewrites":{
