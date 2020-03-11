@@ -15,10 +15,10 @@ yarn-error.log
 ## Ignored Dependencies
 coldbox/*
 testbox/*
-modules/*
 **/apidocs/**
 .cfformat.json
 .cflintrc
 .editorconfig
 config/
 models/Entity**
+modules/cborm/
