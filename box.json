@@ -1,0 +1,35 @@
+{
+    "name":"luceeManyFiles",
+    "version":"1.0.0",
+    "location":"",
+    "author":"You",
+    "slug":"luceemanyfiles",
+    "createPackageDirectory":false,
+    "type":"mvc",
+    "keywords":"",
+    "homepage":"",
+    "documentation":"",
+    "repository":{
+        "type":"",
+        "url":""
+    },
+    "bugs":"",
+    "shortDescription":"",
+    "contributors":[],
+    "ignore":[],
+    "devDependencies":{},
+    "installPaths":{
+        "coldbox":"coldbox/",
+        "cborm":"modules/cborm/",
+        "testbox":"testbox/"
+    },
+    "dependencies":{
+        "coldbox":"^5.0.0",
+        "testbox":"^3.2.0",
+        "commandbox-dotenv":"^1.8.1",
+        "commandbox-cfconfig":"^1.0.6",
+        "cborm":"^2.4.0+149",
+        "commandbox-fusionreactor":"^4.0.0"
+    },
+    "scripts":{}
+}

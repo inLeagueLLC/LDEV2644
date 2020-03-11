@@ -1,0 +1,22 @@
+{
+    "cfconfigfile":"./.cfconfig.json",
+    "app":{
+        "cfengine":"lucee@5.3.4+80"
+    },
+    "jvm":{
+        "javaHome":"C:\\Program Files\\AdoptOpenJDK\\jdk-11.0.6.10-hotspot"
+    },
+    "web":{
+        "rewrites":{
+            "enable":"true"
+        }
+    },
+    "fusionreactor":{
+        "enable":"${FR_ENABLE:false}",
+        "port":"${FR_PORT:8088}",
+        "licenseKey":"${FR_LICENSE_KEY}",
+        "password":"${FR_PASSWORD}",
+        "RESTRegisterHostname":"${FR_RESTREGISTERHOSTNAME:luceeTestApp}",
+        "licenseDeactivateOnShutdown":"${FR_DEACTIVATEONSHUTDOWN:true}"
+    }
+}
