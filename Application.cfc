@@ -13,7 +13,7 @@ component{
 	this.typechecking = false;
 	this.datasource = 'luceeFiles';
 	this.mappings[ "/cborm" ] = '/modules/cborm';
-	this.mappings[ "/cbvalidation" ] = 'modules/cborm/modules/cbvalidation';
+	this.mappings[ "/cbvalidation" ] = 'modules/cbvalidation';
 
 	this.ormSettings = {
 		'cfclocation' = ["/models" ],

@@ -20,6 +20,7 @@
     "devDependencies":{},
     "installPaths":{
         "coldbox":"coldbox/",
+        "cbvalidation": "modules/cbvalidation",
         "cborm":"modules/cborm/",
         "testbox":"testbox/"
     },
